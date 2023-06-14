@@ -32,6 +32,15 @@ public class RightDownMirrorStarPattern {
 		
 
 	} 
+/*
+*****
+ ****
+  ***
+   **
+    *
+    
+*/
+
 
 /* example program in gfg 
 //Java Program to print pattern
