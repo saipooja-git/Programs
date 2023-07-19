@@ -34,5 +34,7 @@ public class ArrangeArrayElementsInDescendingOrder {
 		{
 			System.out.print( a[i]+ " " );
 		}
+        s.close();
+
 	}
 }

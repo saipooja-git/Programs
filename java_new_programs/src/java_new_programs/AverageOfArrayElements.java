@@ -37,6 +37,8 @@ public class AverageOfArrayElements {
 
 
 		System.out.print("avg of array elements is:"+f); // to get output in float values did this
+        s.close();
+
 	}
 
 }
