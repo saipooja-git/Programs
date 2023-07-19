@@ -7,7 +7,9 @@ public class Student {
     private String name;
     private int[] marks;
 
-    public Student(String name, int[] marks) {
+  //  public Student(String name, int[] marks) {  // integer argument.
+    public Student(String name,int... marks) { // variable argument... remember variable argument should be declared as last parameter.
+    	//and not as ---------->   public Student(int... marks,String name)
         this.name = name;
         this.marks = marks;
     }

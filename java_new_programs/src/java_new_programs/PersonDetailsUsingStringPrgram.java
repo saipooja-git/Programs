@@ -1,11 +1,21 @@
 package java_new_programs;
-
 import java.math.BigDecimal;
+import java.util.Scanner;
 
 public class PersonDetailsUsingStringPrgram {
 
 	public static void main(String[] args) {
-		int[] marks= {100,98,95,90,98};
+		//int[] marks= {100,98,95,98};
+		int k ;
+		int[] marks = new int[5];
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter how many subjects:");
+        k= s.nextInt();
+        marks = new int[k];
+        System.out.println("Enter marks:");
+        for (int i = 0; i < k ; i++) {
+            marks[i] = s.nextInt();
+        }
 		Student student = new Student(" Angel ", marks);
 		
 		int number =student.getNumberOfMarks();
