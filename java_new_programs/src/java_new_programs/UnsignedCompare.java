@@ -38,4 +38,4 @@ public class UnsignedCompare {
 //if index i in aray a is less than b, it prints "a is lexicographically less than b"
 //if index i in array a is greaer than b,it prints "a is lexicographically greater than b"
 //if these both above mentioned methods doesnot work oly then it checks length of a nd b, if a length is smaller than b
-//it returns -1 else 1 when a's length is greater than b [using intger.compare(a.length,b.length)].
+//it returns -1 else 1 when a"s length is greater than b [using intger.compare(a.length,b.length)].

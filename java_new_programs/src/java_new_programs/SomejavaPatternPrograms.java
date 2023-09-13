@@ -44,9 +44,9 @@ public class SomejavaPatternPrograms {
 		System.out.println();
 		
 		char a,b;
-		for(a='A';a<='E';a++)
+		for(a="A";a<="E";a++)
 		{
-			for(b='A';b<=a;b++)
+			for(b="A";b<=a;b++)
 			{
 				System.out.print(b);
 			}
@@ -56,9 +56,9 @@ public class SomejavaPatternPrograms {
 		System.out.print("next program");
 		System.out.println();
 		
-		for(a='A';a<='E';a++)
+		for(a="A";a<="E";a++)
 		{
-			for(b='A';b<=a;b++)
+			for(b="A";b<=a;b++)
 			{
 				System.out.print(a);
 			}
@@ -68,10 +68,10 @@ public class SomejavaPatternPrograms {
 		System.out.print("next program");
 		System.out.println();
 		
-		char s= 'A';
-		for(a='A';a<='E';a++)
+		char s= "A";
+		for(a="A";a<="E";a++)
 		{
-			for(b='A';b<=a;b++)
+			for(b="A";b<=a;b++)
 			{
 				System.out.print(s);
 				s++;

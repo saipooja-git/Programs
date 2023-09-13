@@ -20,14 +20,14 @@ class Dog extends Animal1 {
 
     @Override
     void getCat() {
-        // Dog doesn't make cat sounds
+        // Dog doesn"t make cat sounds
     }
 }
 
 class Cat extends Animal1 {
     @Override
     void getDog() {
-        // Cat doesn't make dog sounds
+        // Cat doesn"t make dog sounds
     }
 
     @Override

@@ -35,4 +35,4 @@ public class CompareArrays {
 // Arrays.compare() method is not available for arrays of primitive types like int[]. It is only available for arrays of reference types (e.g., String[], Object[]).
 // if index i in aray a is less than b, it prints "a is lexicographically less than b"
 // if index i in array a is greaer than b,it prints "a is lexicographically greater than b"
-// if these both above mentioned methods doesnot work oly then it checks length of a nd b, if a length is smaller than b it returns -1 else 1 when a's length is greater than b [using intger.compare(a.length,b.length)] 
+// if these both above mentioned methods doesnot work oly then it checks length of a nd b, if a length is smaller than b it returns -1 else 1 when a"s length is greater than b [using intger.compare(a.length,b.length)] 
