@@ -18,7 +18,7 @@ public class RightPascalTriangleStarPattern {
             }
             System.out.println("");
         }
-
+n.close();
 	}
 
 }

@@ -22,5 +22,6 @@ public class BinarySearch {
         } else {
             System.out.println("\n" + key + " not found");
         }
+        s.close();
     }
 }

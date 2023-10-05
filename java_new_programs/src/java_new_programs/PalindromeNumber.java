@@ -23,6 +23,8 @@ public class PalindromeNumber {
 		{
 			System.out.print(c +" "+"is not a palindrome number");
 		}
+		a.close();
+
 			}
 
 }
